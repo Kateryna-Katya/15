@@ -43,210 +43,231 @@
     </header>
 
     <main>
-        <section id="hero" class="hero">
-            <div class="hero__bg-glow"></div>
+<section id="hero" class="hero">
+    <div class="hero__bg-glow"></div>
 
-            <div class="container hero__container">
-                <div class="hero__content">
-                    <div class="hero__text" data-aos="fade-right">
-                        <span class="hero__subtitle">Консалтинг-блог <?= $domainTitle ?></span>
-                        <h1 class="hero__title">
-                            Инновационная<br> технология роста <br>
-                            <span class="text-highlight">для вашего бизнеса</span>
-                        </h1>
-                        <p class="hero__description">
-                            Переосмыслите подход к развитию. Мы предлагаем передовую цифровую инфраструктуру и стратегии, которые меняют правила игры. Оцените перспективы вашего проекта уже сегодня.
-                        </p>
-                        <div class="hero__actions">
-                            <a href="#contact" class="btn btn--primary">Бесплатная консультация</a>
-                            <a href="#expertise" class="btn btn--link">Узнать больше <i class="fa-solid fa-arrow-down"></i></a>
+    <div class="container hero__container">
+        <div class="hero__content">
+            <div class="hero__text" data-aos="fade-right">
+                <span class="hero__subtitle">Архитектура роста от
+                    <?= $domainTitle ?>
+                </span>
+                <h1 class="hero__title">
+                    Масштабируем бизнес <br>
+                    <span class="text-highlight">через AI и данные</span>
+                </h1>
+                <p class="hero__description">
+                    Хватит гадать. Мы внедряем проверенные цифровые стратегии и экосистемы, которые превращают хаос в
+                    прогнозируемую прибыль. Получите дорожную карту масштабирования вашего проекта.
+                </p>
+                <div class="hero__actions">
+                    <a href="#contact" class="btn btn--primary">Заказать аудит стратегии</a>
+                    <a href="#expertise" class="btn btn--link">Смотреть кейсы <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="hero__visual" data-aos="zoom-in" data-aos-delay="200">
+                <div class="hero__image-wrapper">
+                    <div class="hero__blob"></div>
+                    <img src="/img/one.jpg" alt="Data-driven Growth Strategy" class="hero__img img-floating">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="expertise" class="expertise section-padding">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="subtitle">Прикладные решения</span>
+            <h2 class="section-title">Стек нашей экспертизы</h2>
+        </div>
+
+        <div class="expertise__grid">
+            <div class="expertise-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="expertise-card__icon">
+                    <i class="fa-solid fa-diagram-project"></i>
+                </div>
+                <h3 class="expertise-card__title">Data-инфраструктура</h3>
+                <p class="expertise-card__text">
+                    Проектируем архитектуру данных, готовую к глобальному масштабированию. Помогаем российским проектам
+                    бесшовно интегрироваться в европейское бизнес-поле.
+                </p>
+            </div>
+
+            <div class="expertise-card expertise-card--featured" data-aos="fade-up" data-aos-delay="200">
+                <div class="expertise-card__icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+                <h3 class="expertise-card__title">Нейросетевой консалтинг</h3>
+                <h4 class="expertise-card__subtitle">Тренд 2026</h4>
+                <p class="expertise-card__text">
+                    Внедряем кастомные AI-агенты и предиктивные модели. Автоматизируем принятие решений там, где раньше
+                    требовались недели аналитики.
+                </p>
+            </div>
+
+            <div class="expertise-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="expertise-card__icon">
+                    <i class="fa-solid fa-rocket"></i>
+                </div>
+                <h3 class="expertise-card__title">Growth-инжиниринг</h3>
+                <p class="expertise-card__text">
+                    Используем агрессивные методологии взрывного роста (HADI, North Star Metric), адаптированные под
+                    современные консалтинговые и ИТ-ниши.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="strategy" class="strategy section-padding bg-gray">
+    <div class="container">
+        <div class="strategy__container">
+            <div class="strategy__content" data-aos="fade-right">
+                <span class="subtitle">Data-driven подход</span>
+                <h2 class="section-title">Алгоритм трансформации <br>вашего проекта</h2>
+                <p class="strategy__description">
+                    Мы отказались от классических советов в пользу **инженерного подхода**. Наша методология сочетает
+                    глубокий бизнес-анализ и внедрение автономных систем управления.
+                </p>
+
+                <div class="strategy-steps">
+                    <div class="step-item">
+                        <span class="step-item__num">01</span>
+                        <div class="step-item__text">
+                            <strong>Глубокий Deep-Dive аудит</strong>
+                            <p>Используем AI-аналитику для поиска аномалий в данных и скрытых рычагов роста, которые не
+                                видит человеческий глаз.</p>
                         </div>
                     </div>
-                    
-                    <div class="hero__visual" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="hero__image-wrapper">
-                            <div class="hero__blob"></div>
-                            <img src="/img/one.jpg" alt="Strategic Consulting" class="hero__img img-floating">
+                    <div class="step-item">
+                        <span class="step-item__num">02</span>
+                        <div class="step-item__text">
+                            <strong>Сборка цифрового ядра</strong>
+                            <p>Разворачиваем инфраструктуру, которая автоматизирует рутину и масштабирует ваши продажи
+                                на рынки Европы и США.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <span class="step-item__num">03</span>
+                        <div class="step-item__text">
+                            <strong>Гипермасштабирование</strong>
+                            <p>Сопровождаем внедрение до выхода на плановые KPI. Ваша стратегия становится самообучаемой
+                                системой.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="expertise" class="expertise section-padding">
-            <div class="container">
-                <div class="section-header" data-aos="fade-up">
-                    <span class="subtitle">Что мы делаем</span>
-                    <h2 class="section-title">Наша экспертиза</h2>
-                </div>
 
-                <div class="expertise__grid">
-                    <div class="expertise-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="expertise-card__icon">
-                            <i class="fa-solid fa-layer-group"></i>
-                        </div>
-                        <h3 class="expertise-card__title">Цифровая стратегия</h3>
-                        <p class="expertise-card__text">
-                            Передовая цифровая инфраструктура для масштабирования вашего бизнеса на европейском рынке.
-                        </p>
-                    </div>
-
-                    <div class="expertise-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="expertise-card__icon">
-                            <i class="fa-solid fa-microchip"></i>
-                        </div>
-                        <h3 class="expertise-card__title">AI-инструменты</h3>
-                        <h4 class="expertise-card__subtitle">Платформа года</h4>
-                        <p class="expertise-card__text">
-                            Внедрение AI-решений для реальных задач: от автоматизации процессов до предиктивной аналитики.
-                        </p>
-                    </div>
-
-                    <div class="expertise-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="expertise-card__icon">
-                            <i class="fa-solid fa-chart-line"></i>
-                        </div>
-                        <h3 class="expertise-card__title">Стратегия роста</h3>
-                        <p class="expertise-card__text">
-                            Методологии, доказавшие эффективность в самых конкурентных нишах консалтинга.
-                        </p>
+            <div class="strategy__image" data-aos="fade-left">
+                <div class="image-stack">
+                    <img src="/img/two.jpg" alt="Business Transformation Strategy"
+                        class="strategy__img-main img-floating">
+                    <div class="strategy__badge">
+                        <strong>EU Market</strong>
+                        <span>Экспертиза 2026</span>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+<section id="insights" class="insights section-padding">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="subtitle">Интеллектуальный капитал</span>
+            <h2 class="section-title">Аналитика и прогнозы 2026</h2>
+        </div>
 
-        <section id="strategy" class="strategy section-padding bg-gray">
-            <div class="container">
-                <div class="strategy__container">
-                    <div class="strategy__content" data-aos="fade-right">
-                        <span class="subtitle">Методология</span>
-                        <h2 class="section-title">Стратегия, которая <br>меняет правила игры</h2>
-                        <p class="strategy__description">
-                            Мы не просто даем советы. Мы строим пошаговый путь, понятный каждому, используя технологии нового поколения.
-                        </p>
-                        
-                        <div class="strategy-steps">
-                            <div class="step-item">
-                                <span class="step-item__num">01</span>
-                                <div class="step-item__text">
-                                    <strong>Анализ и аудит</strong>
-                                    <p>Оценить перспективы проекта и выявить скрытые точки роста.</p>
-                                </div>
-                            </div>
-                            <div class="step-item">
-                                <span class="step-item__num">02</span>
-                                <div class="step-item__text">
-                                    <strong>Разработка ядра</strong>
-                                    <p>Построение фундамента на базе инновационных технологий.</p>
-                                </div>
-                            </div>
-                            <div class="step-item">
-                                <span class="step-item__num">03</span>
-                                <div class="step-item__text">
-                                    <strong>Запуск и поддержка</strong>
-                                    <p>Экспертная поддержка на всех этапах реализации стратегии.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="insights__grid">
+            <article class="insight-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="insight-card__image">
+                    <img src="/img/three.jpg" alt="Autonomous Income Systems" class="img-floating">
+                </div>
+                <div class="insight-card__content">
+                    <span class="insight-card__tag">Финтех</span>
+                    <h3 class="insight-card__title">Автономные системы пассивного дохода</h3>
+                    <p class="insight-card__text">Анализируем алгоритмические модели управления капиталом, которые стали
+                        стандартом для ЕС в текущем году.</p>
+                    <a href="#contact" class="insight-card__link">Изучить отчет <i
+                            class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </article>
 
-                    <div class="strategy__image" data-aos="fade-left">
-                        <div class="image-stack">
-                            <img src="/img/two.jpg" alt="Strategy" class="strategy__img-main img-floating">
-                            <div class="strategy__badge">
-                                <strong>10+ лет</strong>
-                                <span>опыта в ЕС</span>
-                            </div>
-                        </div>
-                    </div>
+            <article class="insight-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="insight-card__image">
+                    <img src="/img/four.jpg" alt="Enterprise AI Deployment" class="img-floating">
+                </div>
+                <div class="insight-card__content">
+                    <span class="insight-card__tag">Автоматизация</span>
+                    <h3 class="insight-card__title">Масштабирование AI-агентов в бизнесе</h3>
+                    <p class="insight-card__text">Как интеграция кастомных LLM-решений сокращает операционные расходы на
+                        40% без потери качества.</p>
+                    <a href="#contact" class="insight-card__link">Читать разбор <i
+                            class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </article>
+
+            <article class="insight-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="insight-card__image">
+                    <img src="/img/five.jpg" alt="Market Expansion Strategy" class="img-floating">
+                </div>
+                <div class="insight-card__content">
+                    <span class="insight-card__tag">Стратегия</span>
+                    <h3 class="insight-card__title">Экспансия на рынки с высокой конкуренцией</h3>
+                    <p class="insight-card__text">Методология захвата доли рынка в условиях перенасыщенного спроса: опыт
+                        <?= $domainTitle ?>.
+                    </p>
+                    <a href="#contact" class="insight-card__link">Смотреть методологию <i
+                            class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+<section id="about" class="about section-padding bg-gray">
+    <div class="container">
+        <div class="about__container">
+            <div class="about__image" data-aos="zoom-in">
+                <div class="about__image-wrapper">
+                    <div class="about__blob-decoration"></div>
+                    <img src="/img/six.jpg" alt="Infrastructure of <?= $domainTitle ?>" class="img-floating">
                 </div>
             </div>
-        </section>
-        <section id="insights" class="insights section-padding">
-            <div class="container">
-                <div class="section-header" data-aos="fade-up">
-                    <span class="subtitle">База знаний</span>
-                    <h2 class="section-title">Инсайты и Аналитика</h2>
-                </div>
 
-                <div class="insights__grid">
-                    <article class="insight-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="insight-card__image">
-                            <img src="/img/three.jpg" alt="Passive Income" class="img-floating">
-                        </div>
-                        <div class="insight-card__content">
-                            <span class="insight-card__tag">Тренд</span>
-                            <h3 class="insight-card__title">Технология для пассивного дохода</h3>
-                            <p class="insight-card__text">Разбираем, как программа пассивного дохода меняет подход к инвестициям в 2026 году.</p>
-                            <a href="#contact" class="insight-card__link">Узнать детали <i class="fa-solid fa-chevron-right"></i></a>
-                        </div>
-                    </article>
+            <div class="about__content" data-aos="fade-left">
+                <span class="subtitle">Технологический стек и экспертиза</span>
+                <h2 class="section-title">Интегрируем ваш бизнес <br>в глобальную цифровую среду</h2>
+                <p class="about__text">
+                    <strong>
+                        <?= $domainTitle ?>
+                    </strong> — это не просто консалтинг, а инженерный центр для масштабирования проектов. Мы создаем
+                    экосистемы, которые работают автономно и соответствуют стандартам цифровой экономики ЕС 2026 года.
+                </p>
+                <p class="about__text">
+                    Мы объединили опыт работы с крупным капиталом и передовые стеки автоматизации (AI, Blockchain, Big
+                    Data), чтобы наши клиенты не просто адаптировались к изменениям, а опережали их на несколько шагов.
+                </p>
 
-                    <article class="insight-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="insight-card__image">
-                            <img src="/img/four.jpg" alt="AI Tools" class="img-floating">
-                        </div>
-                        <div class="insight-card__content">
-                            <span class="insight-card__tag">Технологии</span>
-                            <h3 class="insight-card__title">AI-инструменты для реальных задач</h3>
-                            <p class="insight-card__text">Практики, применимые уже сегодня: как автоматизация сокращает издержки на 40%.</p>
-                            <a href="#contact" class="insight-card__link">Читать далее <i class="fa-solid fa-chevron-right"></i></a>
-                        </div>
-                    </article>
-
-                    <article class="insight-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="insight-card__image">
-                            <img src="/img/five.jpg" alt="Growth Strategy" class="img-floating">
-                        </div>
-                        <div class="insight-card__content">
-                            <span class="insight-card__tag">Бизнес</span>
-                            <h3 class="insight-card__title">Стратегия роста на базе инноваций</h3>
-                            <p class="insight-card__text">Воплотите мечты в реальность, используя проверенные методологии развития проектов.</p>
-                            <a href="#contact" class="insight-card__link">Подробнее <i class="fa-solid fa-chevron-right"></i></a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="about section-padding bg-gray">
-            <div class="container">
-                <div class="about__container">
-                    <div class="about__image" data-aos="zoom-in">
-                        <div class="about__image-wrapper">
-                            <div class="about__blob-decoration"></div>
-                            <img src="/img/six.jpg" alt="About <?= $domainTitle ?>" class="img-floating">
-                        </div>
+                <div class="about__stats">
+                    <div class="stat-box">
+                        <span class="stat-box__num">500+</span>
+                        <span class="stat-box__label">Кейсов в зоне EU</span>
                     </div>
-
-                    <div class="about__content" data-aos="fade-left">
-                        <span class="subtitle">Ваш проверенный партнер</span>
-                        <h2 class="section-title">Ориентир в мире цифровых возможностей</h2>
-                        <p class="about__text">
-                            <strong><?= $domainTitle ?></strong> — это экспертная поддержка на всех этапах вашего пути. Платформа уже доступна в Европе, предлагая решения, которые меняют правила игры.
-                        </p>
-                        <p class="about__text">
-                            Мы объединили международный опыт и инновационные технологии, чтобы вы могли построить карьеру, которая работает на вас, и открыть новые возможности для роста.
-                        </p>
-
-                        <div class="about__stats">
-                            <div class="stat-box">
-                                <span class="stat-box__num">500+</span>
-                                <span class="stat-box__label">Проектов в ЕС</span>
-                            </div>
-                            <div class="stat-box">
-                                <span class="stat-box__num">24/7</span>
-                                <span class="stat-box__label">Поддержка</span>
-                            </div>
-                        </div>
-
-                        <div class="about__info-note">
-                            <i class="fa-solid fa-circle-info"></i>
-                            <span>Предложение активно только в странах ЕС</span>
-                        </div>
+                    <div class="stat-box">
+                        <span class="stat-box__num">€2.5B+</span>
+                        <span class="stat-box__label">Капитализация клиентов</span>
                     </div>
                 </div>
+
+                <div class="about__info-note">
+                    <i class="fa-solid fa-earth-europe"></i>
+                    <span>Полное соответствие регуляциям ЕС и GDPR compliance</span>
+                </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
         <section id="contact" class="contact section-padding">
             <div class="container">
                 <div class="contact__container">

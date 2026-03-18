@@ -2,9 +2,9 @@
     --bg-black: #0a0a0a;
     --bg-gray: #141414;
     --accent-gray: #2a2a2a;
-    --text-main: #e0e0e0;
-    --text-muted: #a0a0a0;
-    --white: #ffffff;
+    --text-main: #f3bdbd;
+    --text-muted: #aa5f5f;
+    --white: #d10c0c;
     --transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
     --container-width: 1200px;
 }
